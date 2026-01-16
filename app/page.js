@@ -250,9 +250,10 @@ export default function Home() {
 }
 
 .subtitle{
-  color:#cdeaff;
-  margin-bottom:30px;
-  font-size:18px;
+  color: #E65100;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;   /* ← bold effect */
 }
 
 /* QUOTE TEXT – IMMEDIATE DISPLAY */
@@ -355,7 +356,7 @@ export default function Home() {
 .service-track {
   display: flex;
   gap: 15px;
-  animation: slide 35s linear infinite;
+  animation: slide 15s linear infinite;
 }
 
 .service-box {
@@ -395,7 +396,6 @@ export default function Home() {
   <p style={{ fontSize: '18px', color: '#2c5364', marginBottom: '40px' }}>
     Experts behind MBET INDIA PVT LTD
   </p>
-
   <marquee
     behavior="scroll"
     direction="left"
@@ -413,18 +413,18 @@ export default function Home() {
       }}
     >
       {[
-        { name: "Sumit More", role: "Java Full Stack Developer", desc: "Web & Android Development", img: "https://i.postimg.cc/fybgGr33/sumit.jpg" },
-        { name: "Devika Patil", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/02gZcR21/Devika.jpg" },
-        { name: "Abhishek Kalantre", role: "Java Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/kGR8W4tb/abhijeetk.jpg" },
-        { name: "Komal Ghadge", role: "Web Developer", desc: "HTML, CSS, JavaScript & SEO", img: "https://i.postimg.cc/Qd6gPdQ2/komal.jpg" },
+        { name: "Sumit More", role: "Java Full Stack Developer", desc: "Web & Android Development", img: "https://i.postimg.cc/tCYgBMxW/b-Sumit.jpg" },
+        { name: "Devika Patil", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/s2QWh2V3/Bd-EVika-P.jpg" },
+        { name: "Abhishek Kalantre", role: "Java Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/SKW5kkwX/babhishek.jpg" },
+        { name: "Komal Ghadge", role: "Web Developer", desc: "HTML, CSS, JavaScript & SEO", img: "https://i.postimg.cc/J7KqNGN7/bkomal.jpg" },
         { name: "Bhavesh Dandavate", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/jSbgdVGZ/Bhavesh.jpg" },
-        { name: "Shivani Ghadge", role: "UI / UX Designer", desc: "Modern and user-focused designs", img: "https://i.postimg.cc/y8f5PBkq/Shivani.jpg" },
-        { name: "Omkar Yadav", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/02dGnz41/Omkar.jpg" },
-        { name: "Sanika Deshmukh", role: "Backend Developer", desc: "Java, Spring Boot & MySQL", img: "https://i.postimg.cc/4x8vMxvG/Sanikad.jpg" },
-        { name: "Sanika Pawar", role: "Digital Marketer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/sXzpGGsS/sanikap.jpg" },
-        { name: "Shraddha Babar", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/Sxz8ZfKW/shraddha.jpg" },
-        { name: "Bhumika Nikam", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/C51nbjty/bhumika.jpg" },
-        { name: "Sneha Patil", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/cJccJrQF/snehap.jpg" }
+        { name: "Shivani Ghadge", role: "UI / UX Designer", desc: "Modern and user-focused designs", img: "https://i.postimg.cc/k5cV0tXG/bshivani.jpg" },
+        { name: "Omkar Yadav", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/zXVnTpD4/b-Omkary.jpg" },
+        { name: "Sanika Deshmukh", role: "Backend Developer", desc: "Java, Spring Boot & MySQL", img: "https://i.postimg.cc/RCbtCf1C/bsanika-D.jpg" },
+        { name: "Sanika Pawar", role: "Digital Marketer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/bNct2PMc/bsanikapw.jpg" },
+        { name: "Shraddha Babar", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/kXb2nHgJ/bshraddha.jpg" },
+        { name: "Bhumika Nikam", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/44wDY4nX/b-Bhumika.jpg" },
+        { name: "Sneha Patil", role: "MERN Developer", desc: "SEO, Ads & Social Media", img: "https://i.postimg.cc/d3TVV7v0/bsneha.jpg" }
       ].map((member, i) => (
         <div
           key={i}
